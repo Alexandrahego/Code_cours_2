@@ -1,0 +1,76 @@
+@font-face {
+  	font-family:"Yantramanav-Black";
+  	src: url("Yantramanav-Black.ttf");
+}
+
+@font-face {
+  	font-family:"Yantramanav-Bold";
+  	src: url("Yantramanav-Bold.ttf");
+}
+
+@font-face {
+ 	font-family:"PontanoSans-Regular";
+  	src: url("PontanoSans-Regular.ttf");
+}
+
+h1{
+	font-family:"Yantramanav-Black";
+	color: #AF1B3F;
+	font-size: 400%;
+	text-shadow: 3px 3px #473144;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+h2{
+	font-family:"Yantramanav-Black";
+	color: #473144;
+	font-size: 200%;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+
+h3{
+	font-family:"Yantramanav-Bold";
+	color: #DF9B6D; 
+}
+
+body{
+    background-image: linear-gradient(#EFC69B, #AF1B3F);
+  	font-family:"PontanoSans-Regular";
+  	width: 80%;
+  	margin:0 auto;
+}
+
+.texte1_image1{
+	display: flex;
+}
+
+.image1{
+	width: 700px;
+}
+
+.texte1{
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 1.18em;
+	background-color: #AF1B3F;
+	color: #CCB69B;
+	padding: 20px;
+}
+
+.ingredients{
+	display: flex;
+	align-items: flex-start;
+}
+
+.image2{
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.video{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
